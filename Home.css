@@ -1,0 +1,28 @@
+.btn-zoom {
+
+
+    width: 180;
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-family: "open_sansrelugar";
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-postion 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+    background-size: contain;
+    background-position: -250xp center;
+    background-repeat: no-repeat;
+}
+.btn-zoom:hover {
+    transform: scale(1.1);
+    background-position: -60px; 
+}
+.btn-zoom:active {
+    transform: scale(1);
+    background-position: 500px;
+}
